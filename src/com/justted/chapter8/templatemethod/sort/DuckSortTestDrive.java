@@ -3,6 +3,7 @@ package com.justted.chapter8.templatemethod.sort;
 import java.util.Arrays;
 
 /**
+ * test
  * Created by justted on 2017/4/21.
  */
 public class DuckSortTestDrive {
