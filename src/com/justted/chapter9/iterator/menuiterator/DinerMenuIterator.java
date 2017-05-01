@@ -1,4 +1,4 @@
-package com.justted.chapter9.iterator.menumergeriterator;
+package com.justted.chapter9.iterator.menuiterator;
 
 
 import java.util.Iterator;

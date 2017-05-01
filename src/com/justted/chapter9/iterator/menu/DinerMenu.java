@@ -1,11 +1,9 @@
-package com.justted.chapter9.iterator.menumergeriterator;
-
-import java.util.Iterator;
+package com.justted.chapter9.iterator.menu;
 
 /**
  * Created by justted on 2017/4/26.
  */
-public class DinerMenu implements Menu{
+public class DinerMenu {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;

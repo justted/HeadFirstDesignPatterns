@@ -1,14 +1,13 @@
-package com.justted.chapter9.iterator.menumergeriterator;
+package com.justted.chapter9.iterator.menu;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 /**
  * Created by justted on 2017/4/26.
  */
 
 
-public class PancakeHouseMenu implements Menu{
+public class PancakeHouseMenu {
     ArrayList menuItems;
 
     public PancakeHouseMenu() {
@@ -29,7 +28,7 @@ public class PancakeHouseMenu implements Menu{
     }
 
     public Iterator createIterator() {
-        return menuItems.iterator();
+        return new PancakeHouseIterator(menuItems);
     }
 
     // other menu methods here

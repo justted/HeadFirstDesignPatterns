@@ -7,4 +7,6 @@ import java.util.Iterator;
  */
 public interface Menu {
     Iterator createIterator();
+    String getName();
+    String getDescription();
 }

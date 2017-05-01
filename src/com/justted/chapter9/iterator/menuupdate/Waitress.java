@@ -17,6 +17,9 @@ public class Waitress {
         Iterator menuIterator = menus.iterator();
         while (menuIterator.hasNext()){
             Menu menu = (Menu)menuIterator.next();
+            System.out.println(menu.getName());
+            System.out.println("------------------------");
+            System.out.println(menu.getDescription());
             printMenu(menu.createIterator());
             System.out.println(" ");
         }
@@ -35,6 +38,9 @@ public class Waitress {
         Iterator menuIterator = menus.iterator();
         while (menuIterator.hasNext()){
             Menu menu = (Menu)menuIterator.next();
+            System.out.println(menu.getName());
+            System.out.println("------------------------");
+            System.out.println(menu.getDescription());
             printVegetarianMenu(menu.createIterator());
             System.out.println(" ");
         }
@@ -45,7 +51,7 @@ public class Waitress {
         while (menuIterator.hasNext()) {
             Menu menu = (Menu) menuIterator.next();
             if (isVegetarian(name, menu.createIterator())) {
-                return true;
+                return true;    //对于需要返回值的方法，可以在if语句中返回，但是外面也必须有return语句
             }
         }
         return false;

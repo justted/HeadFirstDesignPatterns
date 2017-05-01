@@ -37,6 +37,15 @@ public class DinerMenu implements Menu {
         //return new AlternatingDinerMenuIterator(menuItems);
     }
 
+    public String getName(){
+        return "DINER MENU";
+    }
+
+    @Override
+    public String getDescription() {
+        return "LUNCH";
+    }
+
     // other menu methods here
 }
 

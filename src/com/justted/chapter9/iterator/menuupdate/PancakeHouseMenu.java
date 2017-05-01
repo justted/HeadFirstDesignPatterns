@@ -32,5 +32,14 @@ public class PancakeHouseMenu implements Menu {
         return menuItems.iterator();
     }
 
+    public String getName(){
+        return "PANCAKE HOUSE MENU";
+    }
+
+    @Override
+    public String getDescription() {
+        return "BREAKFAST";
+    }
+
     // other menu methods here
 }

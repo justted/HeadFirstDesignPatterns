@@ -1,4 +1,4 @@
-package com.justted.chapter9.iterator.menumergeriterator;
+package com.justted.chapter9.iterator.menuiterator;
 
 /**
  * Created by justted on 2017/4/26.

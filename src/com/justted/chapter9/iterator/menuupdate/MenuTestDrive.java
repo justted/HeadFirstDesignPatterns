@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class MenuTestDrive {
     public static void main(String[] args){
-        ArrayList menus = new ArrayList();  //没使用泛型，取出来的元素都是object类型，必须强制转换
+        ArrayList menus = new ArrayList();  //没使用泛型的话，取出来的元素都是object类型，必须强制转换，而泛型则不是
         Menu pancakeHouseMenu = new PancakeHouseMenu();
         Menu dinerMenu = new DinerMenu();
         Menu cafeMenu = new CafeMenu();

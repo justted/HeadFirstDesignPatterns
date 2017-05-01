@@ -1,4 +1,4 @@
-package com.justted.chapter9.iterator.menumerger;
+package com.justted.chapter9.iterator.menu;
 
 import java.util.ArrayList;
 

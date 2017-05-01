@@ -25,5 +25,14 @@ public class CafeMenu implements Menu {
     public Iterator createIterator() {
         return menuItems.values().iterator();
     }
+
+    public String getName(){
+        return "CAFE MENU";
+    }
+
+    @Override
+    public String getDescription() {
+        return "DINNER";
+    }
 }
 

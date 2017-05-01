@@ -1,15 +1,13 @@
-package com.justted.chapter9.iterator.menumergeriterator;
-
-import java.util.Iterator;
+package com.justted.chapter9.iterator.menu;
 
 /**
  * Created by justted on 2017/4/26.
  */
 public class Waitress {
-    Menu pancakeHouseMenu;
-    Menu dinerMenu;
+    PancakeHouseMenu pancakeHouseMenu;
+    DinerMenu dinerMenu;
 
-    public Waitress(Menu pancakeHouseMenu, Menu dinerMenu) {
+    public Waitress(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu) {
         this.pancakeHouseMenu = pancakeHouseMenu;
         this.dinerMenu = dinerMenu;
     }

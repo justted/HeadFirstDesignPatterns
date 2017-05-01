@@ -1,12 +1,12 @@
-package com.justted.chapter9.iterator.menumergeriterator;
+package com.justted.chapter9.iterator.menu;
 
 /**
  * Created by justted on 2017/4/26.
  */
 public class MenuTestDrive {
     public static void main(String[] args) {
-        Menu pancakeHouseMenu = new PancakeHouseMenu();
-        Menu dinerMenu = new DinerMenu();
+        PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
+        DinerMenu dinerMenu = new DinerMenu();
 
         Waitress waitress = new Waitress(pancakeHouseMenu,dinerMenu);
 

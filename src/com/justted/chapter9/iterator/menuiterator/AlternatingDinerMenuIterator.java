@@ -1,4 +1,4 @@
-package com.justted.chapter9.iterator.menumerger;
+package com.justted.chapter9.iterator.menuiterator;
 
 import java.util.Calendar;
 import java.util.Iterator;
