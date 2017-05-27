@@ -29,7 +29,7 @@ public class GumballMachine {
         } else if (state == SOLD_OUT) {
             System.out.println("You can't insert a quarter, the machine is sold out");
         } else if (state == SOLD) {
-            System.out.println("Please wait, we're already giving you a gumball");
+            System.out.println("Please wait, we're already giving you a gumballmonitor");
         }
     }
 
@@ -51,7 +51,7 @@ public class GumballMachine {
 
     public void turnCrank() {
         if (state == SOLD) {
-            System.out.println("Turning twice doesn't get you another gumball!");
+            System.out.println("Turning twice doesn't get you another gumballmonitor!");
         } else if (state == NO_QUARTER) {
             System.out.println("You turned but there's no quarter");
         } else if (state == SOLD_OUT) {
@@ -65,7 +65,7 @@ public class GumballMachine {
 
     public void dispense() {
         if (state == SOLD) {
-            System.out.println("A gumball comes rolling out the slot");
+            System.out.println("A gumballmonitor comes rolling out the slot");
             count = count - 1;
             if (count == 0) {
                 System.out.println("Oops, out of gumballs!");
@@ -76,9 +76,9 @@ public class GumballMachine {
         } else if (state == NO_QUARTER) {
             System.out.println("You need to pay first");
         } else if (state == SOLD_OUT) {
-            System.out.println("No gumball dispensed");
+            System.out.println("No gumballmonitor dispensed");
         } else if (state == HAS_QUARTER) {
-            System.out.println("No gumball dispensed");
+            System.out.println("No gumballmonitor dispensed");
         }
     }
 
@@ -91,7 +91,7 @@ public class GumballMachine {
         StringBuffer result = new StringBuffer();
         result.append("\nMighty Gumball, Inc.");
         result.append("\nJava-enabled Standing Gumball Model #2004\n");
-        result.append("Inventory: " + count + " gumball");
+        result.append("Inventory: " + count + " gumballmonitor");
         if (count != 1) {
             result.append("s");
         }
@@ -103,7 +103,7 @@ public class GumballMachine {
         } else if (state == HAS_QUARTER) {
             result.append("waiting for turn of crank");
         } else if (state == SOLD) {
-            result.append("delivering a gumball");
+            result.append("delivering a gumballmonitor");
         }
         result.append("\n");
         return result.toString();

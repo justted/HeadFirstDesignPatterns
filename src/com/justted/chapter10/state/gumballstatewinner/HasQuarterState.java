@@ -37,7 +37,7 @@ public class HasQuarterState implements State {
 
     @Override
     public void dispense() {
-        System.out.println("No gumball dispensed");
+        System.out.println("No gumballmonitor dispensed");
     }
 
     @Override

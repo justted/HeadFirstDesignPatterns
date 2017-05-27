@@ -44,7 +44,7 @@ public class GumballMachine {
     }
 
     void releaseBall(){
-        System.out.println("A gumball comes rolling out the slot...");
+        System.out.println("A gumballmonitor comes rolling out the slot...");
         if (count != 0){
             count = count - 1;
         }
@@ -83,7 +83,7 @@ public class GumballMachine {
         StringBuffer result = new StringBuffer();
         result.append("\nMighty Gumball, Inc.");
         result.append("\nJava-enabled Standing Gumball Model #2004\n");
-        result.append("Inventory: " + count + " gumball");
+        result.append("Inventory: " + count + " gumballmonitor");
         if (count != 1) {
             result.append("s");
         }

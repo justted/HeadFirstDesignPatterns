@@ -12,7 +12,7 @@ public class SoldState implements State {
 
     @Override
     public void insertQuarter() {
-        System.out.println("Please wait, we're already giving you a gumball");
+        System.out.println("Please wait, we're already giving you a gumballmonitor");
     }
 
     @Override
@@ -22,7 +22,7 @@ public class SoldState implements State {
 
     @Override
     public void turnCrank() {
-        System.out.println("Turning twice doesn't get you another gumball!!");
+        System.out.println("Turning twice doesn't get you another gumballmonitor!!");
     }
 
     @Override
@@ -38,6 +38,6 @@ public class SoldState implements State {
 
     @Override
     public String toString() {
-        return "dispensing a gumball";
+        return "dispensing a gumballmonitor";
     }
 }
